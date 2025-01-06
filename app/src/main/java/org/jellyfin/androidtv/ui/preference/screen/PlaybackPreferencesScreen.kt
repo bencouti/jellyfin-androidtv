@@ -97,7 +97,7 @@ class PlaybackPreferencesScreen : OptionsFragment() {
 			colorList {
 				setTitle(R.string.lbl_subtitle_text_color)
 				entries = mapOf(
-					0xFFFFFFFFL to context.getString(R.string.color_white),
+					0xCCFFFFFFL to context.getString(R.string.color_white),
 					0XFF000000L to context.getString(R.string.color_black),
 					0xFF7F7F7FL to context.getString(R.string.color_darkgrey),
 					0xFFC80000L to context.getString(R.string.color_red),
@@ -113,7 +113,7 @@ class PlaybackPreferencesScreen : OptionsFragment() {
 			colorList {
 				setTitle(R.string.lbl_subtitle_background_color)
 				entries = mapOf(
-					0x00FFFFFFL to context.getString(R.string.lbl_none),
+					0xCCFFFFFFL to context.getString(R.string.lbl_none),
 					0xFFFFFFFFL to context.getString(R.string.color_white),
 					0XFF000000L to context.getString(R.string.color_black),
 					0xFF7F7F7FL to context.getString(R.string.color_darkgrey),
@@ -130,7 +130,7 @@ class PlaybackPreferencesScreen : OptionsFragment() {
 			colorList {
 				setTitle(R.string.lbl_subtitle_text_stroke_color)
 				entries = mapOf(
-					0x00FFFFFFL to context.getString(R.string.lbl_none),
+					0xCCFFFFFFL to context.getString(R.string.lbl_none),
 					0xFFFFFFFFL to context.getString(R.string.color_white),
 					0XFF000000L to context.getString(R.string.color_black),
 					0xFF7F7F7FL to context.getString(R.string.color_darkgrey),
