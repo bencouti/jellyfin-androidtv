@@ -103,7 +103,7 @@ public class VideoManager {
                 strokeColor,
                 null
         );
-        mExoPlayerView.getSubtitleView().setFractionalTextSize(0.0533f * userPreferences.get(UserPreferences.Companion.getSubtitlesTextSize()));
+        mExoPlayerView.getSubtitleView().setFixedTextSize(18f);
         mExoPlayerView.getSubtitleView().setStyle(subtitleStyle);
         mExoPlayer.addListener(new Player.Listener() {
             @Override
